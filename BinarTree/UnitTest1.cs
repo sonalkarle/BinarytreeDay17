@@ -65,12 +65,12 @@ namespace BinarTree
             BinaryTree.AddNode(22);
             BinaryTree.AddNode(40);
             BinaryTree.AddNode(11);
-            BinaryTree.AddNode(63);
+            BinaryTree.AddNode(65);
             BinaryTree.AddNode(67);
             BinaryTree.AddNode(16);
             BinaryTree.AddNode(60);
             BinaryTree.AddNode(95);
-            BinaryTree.AddNode(65);
+            BinaryTree.AddNode(63);
             BinaryTree.AddNode(3);
 
             bool result = BinaryTree.SearchKey(63);
