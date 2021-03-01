@@ -53,6 +53,6 @@ namespace BinarTree
             Assert.AreEqual(56, BinaryTree.GetRoot);
         }
 
-       s
+       
     }
 }
