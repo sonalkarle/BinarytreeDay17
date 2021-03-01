@@ -25,17 +25,7 @@ namespace BinaryTree
             BinaryTree.AddNode(95);
             BinaryTree.AddNode(65);
             BinaryTree.AddNode(3);
-            ///<summary>
-            ///UC2:Find the size of tree
-            /// </summary>
-            int Size = BinaryTree.GetSize();
-            Console.WriteLine(Size);
             
-            ///<summary>
-            ///UC3:Serach node through the tree
-            /// </summary>
-            bool result = BinaryTree.SearchKey(63);
-            Console.WriteLine(result);
             
            
 
