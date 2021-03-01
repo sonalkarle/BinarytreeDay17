@@ -53,28 +53,6 @@ namespace BinarTree
             Assert.AreEqual(56, BinaryTree.GetRoot);
         }
 
-        /// <summary>
-        /// TC3:Search particular node from the tree
-        /// </summary>
-        [Test]
-        public void GivenBST_WhenSearchedKey_ShouldReturnTrue()
-        {
-            BinaryTree.AddNode(56);
-            BinaryTree.AddNode(30);
-            BinaryTree.AddNode(70);
-            BinaryTree.AddNode(22);
-            BinaryTree.AddNode(40);
-            BinaryTree.AddNode(11);
-            BinaryTree.AddNode(63);
-            BinaryTree.AddNode(67);
-            BinaryTree.AddNode(16);
-            BinaryTree.AddNode(60);
-            BinaryTree.AddNode(95);
-            BinaryTree.AddNode(65);
-            BinaryTree.AddNode(3);
-
-            bool result = BinaryTree.SearchKey(63);
-            Assert.IsTrue(result);
-        }
+       s
     }
 }

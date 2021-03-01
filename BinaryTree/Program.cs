@@ -31,12 +31,6 @@ namespace BinaryTree
             int Size = BinaryTree.GetSize();
             Console.WriteLine(Size);
             
-            ///<summary>
-            ///UC3:Serach node through the tree
-            /// </summary>
-            bool result = BinaryTree.SearchKey(63);
-            Console.WriteLine(result);
-            
            
 
         }
